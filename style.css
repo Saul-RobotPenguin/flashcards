@@ -1,0 +1,78 @@
+:root {
+  --Color1: #eeeeee;
+  --Color2: #00adb5;
+  --Color3: #393e46;
+  --Color4: #222831;
+}
+body {
+  background: var(--Color1);
+  color: var(--Color2);
+}
+.show-btn {
+  border-color: var(--Color3);
+  color: var(--Color3);
+  background: transparent;
+}
+.show-btn:hover {
+  background: var(--Color3);
+  color: var(--Color2);
+}
+
+.question-card {
+  display: none;
+  position: relative;
+  background: transparent;
+  border-color: var(--Color3);
+}
+.feedback {
+  display: none;
+}
+
+textarea {
+  border-radius: 0.25rem;
+  border-color: var(--Color3);
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 2rem;
+  color: var(--Color3);
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: var(--Color4);
+}
+.submitBtn {
+  border: 0.2rem solid var(--Color4);
+  color: var(--Color4);
+  background: transparent;
+}
+.submitBtn:hover {
+  background: var(--Color4);
+  color: var(--Color1);
+}
+.edit-flashcard {
+  border: 0.2rem solid var(--Color4);
+  color: var(--Color4);
+  background: transparent;
+}
+.edit-flashcard:hover {
+  background: var(--Color4);
+  color: var(--Color2);
+}
+.delete-flashcard {
+  border: 0.2rem solid var(--Color3);
+  color: var(--Color3);
+  background: transparent;
+}
+.delete-flashcard:hover {
+  background: var(--Color3);
+  color: var(--Color2);
+}
+.answer {
+  display: none;
+}
+.showItem {
+  display: block;
+}
